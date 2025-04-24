@@ -24,8 +24,6 @@ Built as part of a personal initiative to explore AI integration in education to
 
 ## 📸 Screenshots
 
-> Add screenshots here using:
-> 
-![Screenshot 2025-04-24 084005](https://github.com/user-attachments/assets/c606bac1-c687-4b6f-b45e-b82e50efe0fe)
+> > ![Screenshot 2025-04-24 084005](https://github.com/user-attachments/assets/c606bac1-c687-4b6f-b45e-b82e50efe0fe)
 
 
