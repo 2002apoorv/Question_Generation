@@ -21,7 +21,7 @@ const Age = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get("http://localhost:3000/");
+          const response = await axios.get("https://question-generation-one.vercel.app/");
           setAges(response.data.ages); // Extracting 'ages' from response
         } catch (error) {
           console.error("Error fetching data:", error);
@@ -49,5 +49,6 @@ const Age = () => {
       </div>
     );
   };
+
 
   export default Age
