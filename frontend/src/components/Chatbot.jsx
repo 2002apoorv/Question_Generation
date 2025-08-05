@@ -19,7 +19,7 @@ export const Chatbot = () => {
 
     const handleSend = async () => {
         try {
-            const res = await axios.post("http://localhost:3000/chat", { message: input });
+            const res = await axios.post("https://question-generation-one.vercel.app/chat", { message: input });
             setResponse(res.data.candidates[0]?.content?.parts[0]?.text || "No response");
             
 
@@ -60,3 +60,4 @@ export const Chatbot = () => {
         </div>
     );
 }
+
