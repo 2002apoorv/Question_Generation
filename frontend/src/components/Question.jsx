@@ -27,7 +27,7 @@ function Question() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/questions", {
+        const response = await axios.get("https://question-generation-one.vercel.app/questions", {
           params: {
             chapterid: passeddata.id
           }
@@ -63,5 +63,6 @@ function Question() {
     </>
   )
 }
+
 
 export default Question
