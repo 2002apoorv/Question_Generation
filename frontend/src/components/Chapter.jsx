@@ -11,7 +11,7 @@ function Chapter(){
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get("http://localhost:3000/chapter",{
+          const response = await axios.get("https://question-generation-one.vercel.app/chapter",{
             params:{
               ageid:passeddata.id
             }
@@ -40,5 +40,6 @@ function Chapter(){
       </div>
     );
   }
+
 
   export default Chapter
